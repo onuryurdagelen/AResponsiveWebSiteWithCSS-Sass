@@ -1,0 +1,38 @@
+.xx-large {
+  font-family: "Montserrat", sans-serif;
+  color: $color-secondary;
+  font-size: 2.5rem;
+  font-weight: 800;
+  line-height: 1.3;
+
+  span {
+    display: block;
+  }
+
+  &--green{
+    color: #3dbe71;
+  }
+  @media only screen and (max-width: 1024px) {
+    font-size: 2.5rem;
+  }
+  @media only screen and (max-width: 768px) {
+    font-size: 1.6rem;
+  }
+}
+.x-large {
+  color: $color-secondary;
+  font-size:2rem;
+  color:$color-secondary;
+}
+.large {
+  font-size:1.5rem;
+  color:$color-secondary;
+}
+.medium {
+  font-size: 1.1rem;
+}
+.small {
+}
+.x-small {
+}
+

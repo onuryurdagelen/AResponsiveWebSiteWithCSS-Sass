@@ -1,0 +1,93 @@
+body {
+  display: flex;
+  background-color: red;
+
+  background: url('./imgs/syed-ali-74JeU2jfnfk-unsplash.jpg');
+  background-size: cover;
+  /* background-position: center; */
+  background-origin: cover;
+}
+@media only screen and (max-width: 480px) {
+  body {
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+.sign-in {
+  width: 30%;
+  height: 70%;
+  /* background-color:#00FFFF; */
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid rgb(100, 100, 100);
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  border-radius: 15px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+}
+@media only screen and (max-width: 480px) {
+  .sign-in {
+    width: 100%;
+    height: 50%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .sign-in {
+    width: 90%;
+    height: 50%;
+  }
+}
+.log-in {
+  text-align: center;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: #fff;
+}
+#form {
+  width: 90%;
+  height: 80%;
+  /* background-color: orange; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+@media only screen and (max-width: 480px) {
+}
+label {
+  display: block;
+  color: #ffff;
+  font-size: 1.5rem;
+}
+#nickname {
+  padding: 10px 5px;
+  font-size: 1.1rem;
+  outline: none;
+  border-radius: 10px;
+}
+#password {
+  padding: 10px 5px;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  outline: none;
+}
+.btn-sign-in {
+  font-size: 2rem;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #000;
+}

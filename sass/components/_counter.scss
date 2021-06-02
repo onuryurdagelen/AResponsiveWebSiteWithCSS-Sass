@@ -1,0 +1,40 @@
+.counter {
+  height: 14rem;
+  width: 22%;
+  // background-color: red;
+  border: 5px solid #fff;
+  box-shadow: 2px 1px 4px 0 rgba($color: #000000, $alpha: 0.4);
+  padding: 2rem 1rem;
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+
+  @media only screen and (max-width: 768px) {
+  }
+  @media only screen and (max-width: 480px) {
+    flex: 0 0 70%;
+    min-height: 17rem;
+
+    // background-color: red;
+  }
+  &__icon {
+    width: 3rem;
+    height: 3rem;
+    fill: $color-white;
+  }
+  &__num {
+    font-size: 2.5rem;
+    font-weight: 200;
+    letter-spacing: -2px;
+    color: $color-white;
+  }
+  &__name {
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: $color-white;
+  }
+}

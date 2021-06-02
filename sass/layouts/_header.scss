@@ -1,0 +1,39 @@
+.header {
+  height: 8rem;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  position: relative;
+
+  &__logo {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    z-index: 10;
+    transform: translate(-50%, -50%);
+
+    @media only screen and (max-width: 768px) {
+      left: 50%;
+      top: 40%;
+    }
+    @media only screen and (max-width: 480px) {
+      left: 20%;
+      top: 25%;
+      width: 100px;
+      height: 100px;
+    }
+  }
+  &__social-nav {
+    position: absolute;
+    right: 5%;
+    top: 1%;
+
+    @media only screen and (max-width: 768px) {
+      right: 1%;
+    }
+  }
+}
